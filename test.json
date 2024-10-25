@@ -1,0 +1,31 @@
+{
+    "name": "1",
+    "numLeafs": 2,
+    "ottId": "mrcaott339031ott339050",
+    "children": [
+        {
+            "name": "Cephalopachus",
+            "numLeafs": 1,
+            "ottId": "ott6145221",
+            "children": [
+                {
+                    "name": "Cephalopachus bancanus",
+                    "numLeafs": 0,
+                    "ottId": "ott339050"
+                }
+            ]
+        },
+        {
+            "name": "Carlito",
+            "numLeafs": 1,
+            "ottId": "ott5925594",
+            "children": [
+                {
+                    "name": "Carlito syrichta",
+                    "numLeafs": 0,
+                    "ottId": "ott339031"
+                }
+            ]
+        }
+    ]
+}

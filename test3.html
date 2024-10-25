@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+    <title>Hyperbolic tree</title>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="dcterms.rightsHolder" content="Copyright © 2018 Glatzhofer Michael">
+    
+    <link rel="stylesheet" href="d3-hypertree-light.css" id="ldswitch">        
+
+    <script src="d3-hypertree.js"></script>
+    </head>
+    <body>
+        <script>  
+            const ht = new hyt.Hypertree(
+                { parent: document.body },
+                { 
+                    langInitBFS: (ht, n)=> {                
+                        n.precalc.label = n.data.name                        
+                    },
+                    dataloader: ok => ok(
+
+
+{
+  "name": "LATENT - ROOT",
+  "children": [
+    {
+      "name": "LATENT - Respiratory diseases",
+      "children": [
+        {
+          "name": "PheCode:212 Benign neoplasm of respiratory and intrathoracic organs"
+        },
+        {
+          "name": "PheCode:473 Diseases of the larynx and vocal cords",
+          "children": [
+            {
+              "name": "PheCode:473.1 Chronic laryngitis"
+            },
+            {
+              "name": "PheCode:473.3 Paralysis/spasm of vocal cords or larynx"
+            },
+            {
+              "name": "PheCode:473.4 Voice disturbance"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:474 Acute and chronic tonsillitis",
+          "children": [
+            {
+              "name": "PheCode:474.1 Acute tonsillitis"
+            },
+            {
+              "name": "PheCode:474.2 Chronic tonsillitis and adenoiditis"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:479 Other upper respiratory disease"
+        }
+      ]
+    },
+    {
+      "name": "LATENT - Thyroid, metabolism, systemic conditions",
+      "children": [
+        {
+          "name": "PheCode:226 Benign neoplasm of thyroid glands"
+        },
+        {
+          "name": "PheCode:241 Nontoxic nodular goiter",
+          "children": [
+            {
+              "name": "PheCode:241.1 Nontoxic uninodular goiter"
+            },
+            {
+              "name": "PheCode:241.2 Nontoxic multinodular goiter"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:242 Thyrotoxicosis with or without goiter",
+          "children": [
+            {
+              "name": "PheCode:242.1 Graves' disease"
+            },
+            {
+              "name": "PheCode:242.2 Toxic multinodular goiter"
+            },
+            {
+              "name": "PheCode:242.3 Exophthalmos"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:245 Thyroiditis",
+          "children": [
+            {
+              "name": "PheCode:245.1 Thyroiditis, acute and subacute"
+            },
+            {
+              "name": "PheCode:245.2 Chronic thyroiditis"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:246 Other disorders of thyroid",
+          "children": [
+            {
+              "name": "PheCode:246.2 Thyroid cyst"
+            },
+            {
+              "name": "PheCode:246.7 Abnormal results of function study of thyroid"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:271 Disorders of carbohydrate transport and metabolism",
+          "children": [
+            {
+              "name": "PheCode:271.3 Intestinal disaccharidase deficiencies and disaccharide malabsorption"
+            },
+            {
+              "name": "PheCode:271.9 Other disorders of carbohydrate transport and metabolism"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:272 Disorders of lipoid metabolism",
+          "children": [
+            {
+              "name": "PheCode:272.1 Hyperlipidemia"
+            },
+            {
+              "name": "PheCode:272.9 Unspecified disorder of lipoid metabolism"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:338 Pain",
+          "children": [
+            {
+              "name": "PheCode:338.1 Acute pain"
+            },
+            {
+              "name": "PheCode:338.2 Chronic pain"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:402 Elevated blood pressure reading without diagnosis of hypertension"
+        },
+        {
+          "name": "PheCode:642 Hypertension complicating pregnancy, childbirth, and the puerperium"
+        },
+        {
+          "name": "PheCode:647 Infectious and parasitic complications affecting pregnancy"
+        },
+        {
+          "name": "PheCode:656 Other perinatal conditions of fetus or newborn",
+          "children": [
+            {
+              "name": "PheCode:656.3 Endocrine and metabolic disturbances of fetus and newborn"
+            },
+            {
+              "name": "PheCode:656.6 Perinatal disorders of digestive system"
+            },
+            {
+              "name": "PheCode:656.7 Conditions involving the integument and temperature regulation of fetus and newborn"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:790 Nonspecific findings on examination of blood",
+          "children": [
+            {
+              "name": "PheCode:790.1 Elevated sedimentation rate"
+            },
+            {
+              "name": "PheCode:790.6 Other abnormal blood chemistry"
+            },
+            {
+              "name": "PheCode:790.8 Elevated C-reactive protein (CRP)"
+            },
+            {
+              "name": "PheCode:790.9 Abnormal arterial blood gases"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:799 Debility unspecified"
+        },
+        {
+          "name": "LATENT - Gastrointestinal issues",
+          "children": [
+            {
+              "name": "PheCode:008 Intestinal infection",
+              "children": [
+                {
+                  "name": "PheCode:008.5 Bacterial enteritis"
+                },
+                {
+                  "name": "PheCode:008.6 Viral Enteritis"
+                },
+                {
+                  "name": "PheCode:008.7 Intestinal infection due to protozoa"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:280 Iron deficiency anemias",
+              "children": [
+                {
+                  "name": "PheCode:280.1 Iron deficiency anemias, unspecified or not due to blood loss"
+                },
+                {
+                  "name": "PheCode:280.2 Iron deficiency anemia secondary to blood loss (chronic)"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:561 Symptoms involving digestive system",
+              "children": [
+                {
+                  "name": "PheCode:561.1 Diarrhea"
+                },
+                {
+                  "name": "PheCode:561.2 Flatulence"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LATENT - Female reproductive health",
+          "children": [
+            {
+              "name": "PheCode:054 Herpes simplex"
+            },
+            {
+              "name": "PheCode:1100 Family history"
+            },
+            {
+              "name": "PheCode:131 Protozoan infection"
+            },
+            {
+              "name": "PheCode:174 Breast cancer",
+              "children": [
+                {
+                  "name": "PheCode:174.1 Breast cancer [female]"
+                },
+                {
+                  "name": "PheCode:174.2 Breast cancer [male]"
+                },
+                {
+                  "name": "PheCode:174.3 Neoplasm of uncertain behavior of breast"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:175 Acquired absence of breast"
+            },
+            {
+              "name": "PheCode:180 Cervical cancer and dysplasia",
+              "children": [
+                {
+                  "name": "PheCode:180.1 Cervical cancer"
+                },
+                {
+                  "name": "PheCode:180.3 Cervical intraepithelial neoplasia [CIN] [Cervical dysplasia]"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:182 Malignant neoplasm of uterus"
+            },
+            {
+              "name": "PheCode:184 Cancer of other female genital organs",
+              "children": [
+                {
+                  "name": "PheCode:184.1 Malignant neoplasm of ovary and other uterine adnexa"
+                },
+                {
+                  "name": "PheCode:184.2 Cancer of other female genital organs (excluding uterus and ovary)"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:215 Other benign neoplasm of connective and other soft tissue"
+            },
+            {
+              "name": "PheCode:218 Benign neoplasm of uterus",
+              "children": [
+                {
+                  "name": "PheCode:218.1 Uterine leiomyoma"
+                },
+                {
+                  "name": "PheCode:218.2 Other benign neoplasm of uterus"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:220 Benign neoplasm of ovary"
+            },
+            {
+              "name": "PheCode:221 Benign neoplasm of other female genital organs"
+            },
+            {
+              "name": "PheCode:256 Ovarian dysfunction",
+              "children": [
+                {
+                  "name": "PheCode:256.4 Polycystic ovaries"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:340 Migraine",
+              "children": [
+                {
+                  "name": "PheCode:340.1 Migrain with aura"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:610 Benign mammary dysplasias",
+              "children": [
+                {
+                  "name": "PheCode:610.1 Cystic mastopathy"
+                },
+                {
+                  "name": "PheCode:610.2 Fibroadenosis of breast"
+                },
+                {
+                  "name": "PheCode:610.4 Benign neoplasm of breast"
+                },
+                {
+                  "name": "PheCode:610.8 Other specified benign mammary dysplasias"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:611 Abnormal findings on mammogram or breast exam",
+              "children": [
+                {
+                  "name": "PheCode:611.1 Abnormal mammogram"
+                },
+                {
+                  "name": "PheCode:611.3 Lump or mass in breast"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:612 Breast conditions, congenital or relating to hormones",
+              "children": [
+                {
+                  "name": "PheCode:612.1 Galactorrhea"
+                },
+                {
+                  "name": "PheCode:612.2 Hypertrophy of breast (Gynecomastia)"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:613 Other nonmalignant breast conditions",
+              "children": [
+                {
+                  "name": "PheCode:613.1 Inflammatory disease of breast"
+                },
+                {
+                  "name": "PheCode:613.5 Mastodynia"
+                },
+                {
+                  "name": "PheCode:613.7 Other signs and symptoms in breast"
+                },
+                {
+                  "name": "PheCode:613.8 Other specified disorders of breast"
+                },
+                {
+                  "name": "PheCode:613.9 Breast disorder NOS"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:614 Inflammatory diseases of female pelvic organs",
+              "children": [
+                {
+                  "name": "PheCode:614.1 Pelvic peritoneal adhesions, female (postoperative) (postinfection)"
+                },
+                {
+                  "name": "PheCode:614.3 Pelvic inflammatory disease (PID)"
+                },
+                {
+                  "name": "PheCode:614.5 Inflammatory disease of cervix, vagina, and vulva"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:615 Endometriosis"
+            },
+            {
+              "name": "PheCode:617 Disorders secondary to childbirth, surgery, trauma"
+            },
+            {
+              "name": "PheCode:618 Genital prolapse",
+              "children": [
+                {
+                  "name": "PheCode:618.1 Prolapse of vaginal walls"
+                },
+                {
+                  "name": "PheCode:618.2 Uterine/Uterovaginal prolapse"
+                },
+                {
+                  "name": "PheCode:618.5 Prolapse of vaginal vault after hysterectomy"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:619 Noninflammatory female genital disorders",
+              "children": [
+                {
+                  "name": "PheCode:619.1 Noninflammatory disorders of ovary, fallopian tube, and broad ligament"
+                },
+                {
+                  "name": "PheCode:619.2 Disorders of uterus, NEC"
+                },
+                {
+                  "name": "PheCode:619.3 Noninflammatory disorders of cervix"
+                },
+                {
+                  "name": "PheCode:619.4 Noninflammatory disorders of vagina"
+                },
+                {
+                  "name": "PheCode:619.5 Noninflammatory disorders of vulva and perineum"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:620 Dysplasia of female genital organs",
+              "children": [
+                {
+                  "name": "PheCode:620.1 Dysplasia of cervix"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:621 Endometrial hyperplasia"
+            },
+            {
+              "name": "PheCode:622 Polyp of female genital organs",
+              "children": [
+                {
+                  "name": "PheCode:622.1 Polyp of corpus uteri"
+                },
+                {
+                  "name": "PheCode:622.2 Mucous polyp of cervix"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:623 Hypertrophy of female genital organs"
+            },
+            {
+              "name": "PheCode:624 Symptoms involving female genital tract",
+              "children": [
+                {
+                  "name": "PheCode:624.9 stress incontinence, female"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:625 Pain and other symptoms associated with female genital organs",
+              "children": [
+                {
+                  "name": "PheCode:625.1 Dyspareunia"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:626 Disorders of menstruation and other abnormal bleeding from female genital tract",
+              "children": [
+                {
+                  "name": "PheCode:626.1 Irregular menstrual cycle/bleeding"
+                },
+                {
+                  "name": "PheCode:626.2 Dysmenorrhea"
+                },
+                {
+                  "name": "PheCode:626.4 Premenstrual tension syndromes"
+                },
+                {
+                  "name": "PheCode:626.8 Infertility, female"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:627 Menopausal and postmenopausal disorders",
+              "children": [
+                {
+                  "name": "PheCode:627.1 Postmenopausal bleeding"
+                },
+                {
+                  "name": "PheCode:627.2 Symptomatic menopause"
+                },
+                {
+                  "name": "PheCode:627.3 Postmenopausal atrophic vaginitis"
+                },
+                {
+                  "name": "PheCode:627.4 Premenopausal menorrhagia"
+                },
+                {
+                  "name": "PheCode:627.5 Premature menopause and other ovarian failure"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:628 Ovarian cyst"
+            },
+            {
+              "name": "PheCode:634 Miscarriage; stillbirth",
+              "children": [
+                {
+                  "name": "PheCode:634.1 Missed abortion/Hydatidiform mole"
+                },
+                {
+                  "name": "PheCode:634.3 Ectopic pregnancy"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:636 Early or threatened labor; hemorrhage in early pregnancy"
+            },
+            {
+              "name": "PheCode:638 Other high-risk pregnancy"
+            },
+            {
+              "name": "PheCode:658 Maternal complication of pregnancy affecting fetus or newborn"
+            },
+            {
+              "name": "PheCode:792 Abnormal Papanicolaou smear of cervix and cervical HPV",
+              "children": [
+                {
+                  "name": "PheCode:792.1 Papanicolaou smear of cervix or vagina with atypical squamous cells"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:795 Other and nonspecific abnormal cytological, histological and immunological findings",
+              "children": [
+                {
+                  "name": "PheCode:795.8 Abnormal tumor markers"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:930 Allergic reaction to food"
+            }
+          ]
+        },
+        {
+          "name": "LATENT - Injuries, burns, skin and joint issues",
+          "children": [
+            {
+              "name": "PheCode:1000 Burns"
+            },
+            {
+              "name": "PheCode:1014 Effects of heat, cold and air pressure"
+            },
+            {
+              "name": "PheCode:249 Secondary diabetes mellitus"
+            },
+            {
+              "name": "PheCode:686 Other local infections of skin and subcutaneous tissue",
+              "children": [
+                {
+                  "name": "PheCode:686.1 Carbuncle and furuncle"
+                },
+                {
+                  "name": "PheCode:686.2 Impetigo"
+                },
+                {
+                  "name": "PheCode:686.3 Pilonidal cyst"
+                },
+                {
+                  "name": "PheCode:686.4 Pyogenic granuloma"
+                },
+                {
+                  "name": "PheCode:686.5 Pyoderma"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:711 Arthropathy associated with infections",
+              "children": [
+                {
+                  "name": "PheCode:711.1 Pyogenic arthritis"
+                },
+                {
+                  "name": "PheCode:711.2 Reiter's disease"
+                },
+                {
+                  "name": "PheCode:711.3 Behcet's syndrome"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:870 Open wounds of head; neck; and trunk",
+              "children": [
+                {
+                  "name": "PheCode:870.1 Open wound or laceration of eye or eyelid"
+                },
+                {
+                  "name": "PheCode:870.2 Open wound of ear"
+                },
+                {
+                  "name": "PheCode:870.3 Other open wound of head and face"
+                },
+                {
+                  "name": "PheCode:870.4 Open wound of nose and sinus"
+                },
+                {
+                  "name": "PheCode:870.5 Open wound of lip and mouth"
+                },
+                {
+                  "name": "PheCode:870.6 Open wound of neck"
+                },
+                {
+                  "name": "PheCode:870.8 Open wound of genital organs"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:910 Superficial injury, infected"
+            },
+            {
+              "name": "LATENT - Infectious diseases and surgical complications",
+              "children": [
+                {
+                  "name": "PheCode:038 Septicemia",
+                  "children": [
+                    {
+                      "name": "PheCode:038.1 Gram negative septicemia"
+                    },
+                    {
+                      "name": "PheCode:038.2 Gram positive septicemia"
+                    },
+                    {
+                      "name": "PheCode:038.3 Bacteremia"
+                    }
+                  ]
+                },
+                {
+                  "name": "PheCode:041 Bacterial infection NOS",
+                  "children": [
+                    {
+                      "name": "PheCode:041.1 Staphylococcus infections"
+                    },
+                    {
+                      "name": "PheCode:041.2 Streptococcus infection"
+                    },
+                    {
+                      "name": "PheCode:041.4 E. coli"
+                    },
+                    {
+                      "name": "PheCode:041.8 H. pylori"
+                    },
+                    {
+                      "name": "PheCode:041.9 Infection with drug-resistant microorganisms"
+                    }
+                  ]
+                },
+                {
+                  "name": "PheCode:081 Infection/inflammation of internal prosthetic device; implant; and graft",
+                  "children": [
+                    {
+                      "name": "PheCode:081.1 Graft-versus-host disease"
+                    }
+                  ]
+                },
+                {
+                  "name": "PheCode:136 Other infectious and parasitic diseases"
+                },
+                {
+                  "name": "PheCode:442 Other aneurysm",
+                  "children": [
+                    {
+                      "name": "PheCode:442.1 Aortic aneurysm"
+                    },
+                    {
+                      "name": "PheCode:442.2 Aneurysm of iliac artery"
+                    },
+                    {
+                      "name": "PheCode:442.3 Aneurysm of artery of lower extremity"
+                    },
+                    {
+                      "name": "PheCode:442.4 Arterial dissection"
+                    },
+                    {
+                      "name": "PheCode:442.8 Aneurysm of other specified artery"
+                    }
+                  ]
+                },
+                {
+                  "name": "PheCode:850 Hemorrhage or hematoma complicating a procedure"
+                },
+                {
+                  "name": "PheCode:856 Vascular complications of surgery and medical procedures"
+                },
+                {
+                  "name": "PheCode:875 Non-healing surgical wound"
+                },
+                {
+                  "name": "PheCode:980 Encounter for long-term (current) use of antibiotics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LATENT - Acute conditions, congenital anomalies",
+          "children": [
+            {
+              "name": "PheCode:1003 Sudden death"
+            },
+            {
+              "name": "PheCode:501 Pneumonitis due to inhalation of food or vomitus"
+            },
+            {
+              "name": "PheCode:747 Cardiac and circulatory congenital anomalies",
+              "children": [
+                {
+                  "name": "PheCode:747.1 Cardiac congenital anomalies"
+                },
+                {
+                  "name": "PheCode:747.2 Congenital anomalies of peripheral vascular system"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:788 Syncope and collapse"
+            },
+            {
+              "name": "PheCode:987 Toxic effect of other gases, fumes, or vapors"
+            }
+          ]
+        },
+        {
+          "name": "LATENT - Injuries, bone and nerve disorders",
+          "children": [
+            {
+              "name": "PheCode:1006 Crushing injury"
+            },
+            {
+              "name": "PheCode:1009 Injury, NOS"
+            },
+            {
+              "name": "PheCode:351 Other peripheral nerve disorders"
+            },
+            {
+              "name": "PheCode:726 Peripheral enthesopathies and allied syndromes",
+              "children": [
+                {
+                  "name": "PheCode:726.1 Enthesopathy"
+                },
+                {
+                  "name": "PheCode:726.2 Synoviopathy"
+                },
+                {
+                  "name": "PheCode:726.3 Bursitis"
+                },
+                {
+                  "name": "PheCode:726.4 Calcaneal spur; Exostosis NOS"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:732 Osteochondropathies",
+              "children": [
+                {
+                  "name": "PheCode:732.1 Juvenile osteochondrosis"
+                },
+                {
+                  "name": "PheCode:732.7 Osteochondritis dissecans"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:733 Other disorders of bone and cartilage",
+              "children": [
+                {
+                  "name": "PheCode:733.2 Cyst of bone"
+                },
+                {
+                  "name": "PheCode:733.4 Aseptic necrosis of bone"
+                },
+                {
+                  "name": "PheCode:733.6 Costochondritis"
+                },
+                {
+                  "name": "PheCode:733.8 Malunion and nonunion of fracture"
+                },
+                {
+                  "name": "PheCode:733.9 Chondromalacia"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:736 Other acquired deformities of limbs",
+              "children": [
+                {
+                  "name": "PheCode:736.1 Acquired deformities of forearm"
+                },
+                {
+                  "name": "PheCode:736.2 Acquired deformities of finger"
+                },
+                {
+                  "name": "PheCode:736.3 Acquired deformities of hip"
+                },
+                {
+                  "name": "PheCode:736.4 Genu valgum or varum (acquired)"
+                },
+                {
+                  "name": "PheCode:736.5 Acquired deformities of knee"
+                },
+                {
+                  "name": "PheCode:736.6 Unequal leg length (acquired)"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:742 Derangement of joint, non-traumatic",
+              "children": [
+                {
+                  "name": "PheCode:742.1 Loose body in joint"
+                },
+                {
+                  "name": "PheCode:742.2 Pathological, developmental or recurrent dislocation"
+                },
+                {
+                  "name": "PheCode:742.8 Articular cartilage disorder"
+                },
+                {
+                  "name": "PheCode:742.9 Other derangement of joint"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:830 Dislocation"
+            },
+            {
+              "name": "PheCode:835 Internal derangement of knee"
+            },
+            {
+              "name": "PheCode:836 Traumatic arthropathy"
+            },
+            {
+              "name": "PheCode:840 Sprains and strains",
+              "children": [
+                {
+                  "name": "PheCode:840.1 Muscle/tendon sprain"
+                },
+                {
+                  "name": "PheCode:840.2 Rotator cuff (capsule) sprain"
+                },
+                {
+                  "name": "PheCode:840.3 Joint/ligament sprain"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:842 Other sprains and strains"
+            },
+            {
+              "name": "PheCode:858 Complication of internal orthopedic device"
+            }
+          ]
+        },
+        {
+          "name": "LATENT - Neurological and sleep disorders",
+          "children": [
+            {
+              "name": "PheCode:1012 Late effect"
+            },
+            {
+              "name": "PheCode:1019 Other ill-defined and unknown causes of morbidity and mortality"
+            },
+            {
+              "name": "PheCode:327 Sleep disorders",
+              "children": [
+                {
+                  "name": "PheCode:327.1 Hypersomnia"
+                },
+                {
+                  "name": "PheCode:327.3 Sleep apnea"
+                },
+                {
+                  "name": "PheCode:327.4 Insomnia"
+                },
+                {
+                  "name": "PheCode:327.5 Parasomnia"
+                },
+                {
+                  "name": "PheCode:327.6 Circadian rhythm sleep disorder"
+                },
+                {
+                  "name": "PheCode:327.7 Sleep related movement disorders"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:333 Extrapyramidal disease and abnormal movement disorders",
+              "children": [
+                {
+                  "name": "PheCode:333.1 Essential tremor"
+                },
+                {
+                  "name": "PheCode:333.2 Myoclonus"
+                },
+                {
+                  "name": "PheCode:333.3 Tics and choreas"
+                },
+                {
+                  "name": "PheCode:333.4 Torsion dystonia"
+                },
+                {
+                  "name": "PheCode:333.8 Other degenerative diseases of the basal ganglia"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:334 Degenerative disease of the spinal cord",
+              "children": [
+                {
+                  "name": "PheCode:334.1 Spinocerebellar disease"
+                },
+                {
+                  "name": "PheCode:334.2 Anterior horn cell disease"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:335 Multiple sclerosis"
+            },
+            {
+              "name": "PheCode:341 Other demyelinating diseases of central nervous system"
+            },
+            {
+              "name": "PheCode:343 Infantile cerebral palsy"
+            },
+            {
+              "name": "PheCode:347 Cataplexy and narcolepsy"
+            },
+            {
+              "name": "PheCode:350 Abnormal movement",
+              "children": [
+                {
+                  "name": "PheCode:350.1 Abnormal involuntary movements"
+                },
+                {
+                  "name": "PheCode:350.2 Abnormality of gait"
+                },
+                {
+                  "name": "PheCode:350.3 Lack of coordination"
+                },
+                {
+                  "name": "PheCode:350.5 Abnormal reflex"
+                },
+                {
+                  "name": "PheCode:350.6 Disturbances of sensation of smell and taste"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:358 Myoneural disorders",
+              "children": [
+                {
+                  "name": "PheCode:358.1 Myasthenia gravis"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:981 Toxic effect of (non-ethyl) alcohol and petroleum and other solvents"
+            }
+          ]
+        },
+        {
+          "name": "LATENT - Circulatory, ulcer, bone infections",
+          "children": [
+            {
+              "name": "PheCode:1089"
+            },
+            {
+              "name": "PheCode:444 Arterial embolism and thrombosis",
+              "children": [
+                {
+                  "name": "PheCode:444.1 Arterial embolism and thrombosis of lower extremity artery"
+                },
+                {
+                  "name": "PheCode:444.2 Embolism and thrombosis of abdominal aorta"
+                },
+                {
+                  "name": "PheCode:444.5 Atheroembolism"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:447 Other disorders of arteries and arterioles",
+              "children": [
+                {
+                  "name": "PheCode:447.1 Stricture of artery"
+                },
+                {
+                  "name": "PheCode:447.7 Aortic ectasia"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:707 Chronic ulcer of skin",
+              "children": [
+                {
+                  "name": "PheCode:707.1 Decubitus ulcer"
+                },
+                {
+                  "name": "PheCode:707.2 Chronic ulcer of leg or foot"
+                },
+                {
+                  "name": "PheCode:707.3 Chronic ulcer of unspecified site"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:710 Osteomyelitis, periostitis, and other infections involving bone",
+              "children": [
+                {
+                  "name": "PheCode:710.1 Osteomyelitis"
+                },
+                {
+                  "name": "PheCode:710.2 Periostitis"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:713 Arthropathy associated with other disorders classified elsewhere",
+              "children": [
+                {
+                  "name": "PheCode:713.5 Arthropathy associated with neurological disorders"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:731 Osteitis deformans and osteopathies associated with other disorders classified elsewhere",
+              "children": [
+                {
+                  "name": "PheCode:731.1 Osteitis deformans [Paget's disease of bone]"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:871 Open wounds of extremities",
+              "children": [
+                {
+                  "name": "PheCode:871.1 Open wound of hand except finger(s)"
+                },
+                {
+                  "name": "PheCode:871.2 Open wound of finger(s)"
+                },
+                {
+                  "name": "PheCode:871.3 Open wound of foot except toe(s) alone"
+                },
+                {
+                  "name": "PheCode:871.4 Open wound of toe(s)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LATENT - Metabolic, rheumatologic conditions",
+          "children": [
+            {
+              "name": "PheCode:130 Spirochetal infection",
+              "children": [
+                {
+                  "name": "PheCode:130.1 Lyme disease"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:278 Overweight, obesity and other hyperalimentation",
+              "children": [
+                {
+                  "name": "PheCode:278.1 Obesity"
+                },
+                {
+                  "name": "PheCode:278.3 Localized adiposity"
+                },
+                {
+                  "name": "PheCode:278.4 Abnormal weight gain"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:649 Other conditions or status of the mother complicating pregnancy, childbirth, or the puerperium",
+              "children": [
+                {
+                  "name": "PheCode:649.1 Diabetes or abnormal glucose tolerance complicating pregnancy"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:714 Rheumatoid arthritis and other inflammatory polyarthropathies",
+              "children": [
+                {
+                  "name": "PheCode:714.1 Rheumatoid arthritis"
+                },
+                {
+                  "name": "PheCode:714.2 Juvenile rheumatoid arthritis"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:793 Nonspecific abnormal findings on radiological and other examination of musculoskeletal system",
+              "children": [
+                {
+                  "name": "PheCode:793.2 Nonspecific abnormal findings on radiological and other examination of other intrathoracic organs (echocardiogram, etc)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LATENT - Cancers of head, neck, mouth, jaws",
+          "children": [
+            {
+              "name": "PheCode:145 Cancer of mouth",
+              "children": [
+                {
+                  "name": "PheCode:145.1 Cancer of lip"
+                },
+                {
+                  "name": "PheCode:145.2 Cancer of tongue"
+                },
+                {
+                  "name": "PheCode:145.3 Cancer of major salivary glands"
+                },
+                {
+                  "name": "PheCode:145.4 Cancer of the gums"
+                },
+                {
+                  "name": "PheCode:145.5 Cancer of the mouth floor"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:149 Cancer of larynx, pharynx, nasal cavities",
+              "children": [
+                {
+                  "name": "PheCode:149.1 Cancer of oropharynx"
+                },
+                {
+                  "name": "PheCode:149.2 Cancer of nasopharynx"
+                },
+                {
+                  "name": "PheCode:149.3 Cancer of hypopharynx"
+                },
+                {
+                  "name": "PheCode:149.4 Cancer of larynx"
+                },
+                {
+                  "name": "PheCode:149.5 Hx of malignant neoplasm of oral cavity and pharynx"
+                },
+                {
+                  "name": "PheCode:149.9 Cancer of of nasal cavities"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:195 Cancer, suspected or other",
+              "children": [
+                {
+                  "name": "PheCode:195.1 Malignant neoplasm, other"
+                },
+                {
+                  "name": "PheCode:195.3 Malignant neoplasm of head, face, and neck"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:210 Benign neoplasm of lip, oral cavity, and pharynx"
+            },
+            {
+              "name": "PheCode:293 Symptoms involving head and neck",
+              "children": [
+                {
+                  "name": "PheCode:293.1 Swelling, mass, or lump in head and neck [Space-occupying lesion, intracranial NOS]"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:478 Throat pain"
+            },
+            {
+              "name": "PheCode:990 Effects radiation NOS"
+            },
+            {
+              "name": "LATENT - Mouth and jaw conditions",
+              "children": [
+                {
+                  "name": "PheCode:1004 Other signs and symptoms involving emotional state"
+                },
+                {
+                  "name": "PheCode:526 Diseases of the jaws",
+                  "children": [
+                    {
+                      "name": "PheCode:526.1 Cysts of the jaws"
+                    },
+                    {
+                      "name": "PheCode:526.3 Anomalies of jaw size/symmetry"
+                    },
+                    {
+                      "name": "PheCode:526.4 Temporomandibular joint disorders"
+                    },
+                    {
+                      "name": "PheCode:526.5 Inflammatory conditions of jaw"
+                    },
+                    {
+                      "name": "PheCode:526.8 Exostosis of jaw"
+                    },
+                    {
+                      "name": "PheCode:526.9 Jaw disease NOS"
+                    }
+                  ]
+                },
+                {
+                  "name": "PheCode:527 Diseases of the salivary glands",
+                  "children": [
+                    {
+                      "name": "PheCode:527.1 Hypertrophy of salivary gland"
+                    },
+                    {
+                      "name": "PheCode:527.2 Sialoadenitis"
+                    },
+                    {
+                      "name": "PheCode:527.7 Disturbance of salivary secretion"
+                    },
+                    {
+                      "name": "PheCode:527.8 Other specified diseases of the salivary glands"
+                    }
+                  ]
+                },
+                {
+                  "name": "PheCode:529 Diseases and other conditions of the tongue",
+                  "children": [
+                    {
+                      "name": "PheCode:529.1 Glossitis"
+                    },
+                    {
+                      "name": "PheCode:529.6 Glossodynia"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LATENT - Thoracic cancers, HIV, digestive disorders",
+          "children": [
+            {
+              "name": "PheCode:164 Cancer of intrathoracic organs"
+            },
+            {
+              "name": "PheCode:165 Cancer within the respiratory system",
+              "children": [
+                {
+                  "name": "PheCode:165.1 Cancer of bronchus; lung"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:170 Cancer of bone and connective tissue",
+              "children": [
+                {
+                  "name": "PheCode:170.1 Bone cancer"
+                },
+                {
+                  "name": "PheCode:170.2 Cancer of connective tissue"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:196 Radiotherapy"
+            },
+            {
+              "name": "PheCode:198 Secondary malignant neoplasm",
+              "children": [
+                {
+                  "name": "PheCode:198.1 Secondary malignancy of lymph nodes"
+                },
+                {
+                  "name": "PheCode:198.2 Secondary malignancy of respiratory organs"
+                },
+                {
+                  "name": "PheCode:198.3 Secondary malignant neoplasm of digestive systems"
+                },
+                {
+                  "name": "PheCode:198.4 Secondary malignant neoplasm of liver"
+                },
+                {
+                  "name": "PheCode:198.5 Secondary malignancy of brain/spine"
+                },
+                {
+                  "name": "PheCode:198.6 Secondary malignancy of bone"
+                },
+                {
+                  "name": "PheCode:198.7 Secondary malignant neoplasm of skin"
+                }
+              ]
+            },
+            {
+              "name": "PheCode:199 Neoplasm of uncertain behavior",
+              "children": [
+                {
+                  "name": "PheCode:199.4 Neurofibromatosis"
+                }
+              ]
+            },
+            {
+              "name": "LATENT - Viral Infections and Complications",
+              "children": [
+                {
+                  "name": "PheCode:053 Herpes zoster",
+                  "children": [
+                    {
+                      "name": "PheCode:053.1 Herpes zoster with nervous system complications"
+                    }
+                  ]
+                },
+                {
+                  "name": "PheCode:071 Human immunodeficiency virus [HIV] disease",
+                  "children": [
+                    {
+                      "name": "PheCode:071.1 HIV infection, symptomatic"
+                    }
+                  ]
+                },
+                {
+                  "name": "PheCode:230 Kaposi's sarcoma"
+                },
+                {
+                  "name": "PheCode:477 Epistaxis or throat hemorrhage"
+                },
+                {
+                  "name": "PheCode:859 Complication due to other implant and internal device"
+                }
+              ]
+            },
+            {
+              "name": "LATENT - Digestive system cancers, stomach disorders",
+              "children": [
+                {
+                  "name": "PheCode:150 Cancer of esophagus"
+                },
+                {
+                  "name": "PheCode:151 Cancer of stomach"
+                },
+                {
+                  "name": "PheCode:153 Colorectal cancer",
+                  "children": [
+                    {
+                      "name": "PheCode:153.2 Colon cancer"
+                    },
+                    {
+                      "name": "PheCode:153.3 Malignant neoplasm of rectum, rectosigmoid junction, and anus"
+                    }
+                  ]
+                },
+                {
+                  "name": "PheCode:158 Neoplasm of unspecified nature of digestive system"
+                },
+                {
+                  "name": "PheCode:536 Disorders of function of stomach",
+                  "children": [
+                    {
+                      "name": "PheCode:536.3 Gastroparesis"
+                    },
+                    {
+                      "name": "PheCode:536.7 Complications of gastrostomy, colostomy and enterostomy"
+                    },
+                    {
+                      "name": "PheCode:536.8 Dyspepsia and other specified disorders of function of stomach"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LATENT - Ear disorders",
+      "children": [
+        {
+          "name": "PheCode:380 Disorders of external ear",
+          "children": [
+            {
+              "name": "PheCode:380.1 Otitis externa"
+            },
+            {
+              "name": "PheCode:380.4 Impacted cerumen"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:381 Otitis media and Eustachian tube disorders",
+          "children": [
+            {
+              "name": "PheCode:381.1 Otitis media"
+            },
+            {
+              "name": "PheCode:381.2 Eustachian tube disorders"
+            },
+            {
+              "name": "PheCode:381.3 Mastoiditis & related conditions"
+            },
+            {
+              "name": "PheCode:381.9 Otorrhea"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:382 Otalgia"
+        },
+        {
+          "name": "PheCode:383 Otosclerosis"
+        },
+        {
+          "name": "PheCode:384 Other disorders of tympanic membrane",
+          "children": [
+            {
+              "name": "PheCode:384.1 Myringitis"
+            },
+            {
+              "name": "PheCode:384.4 Perforation of tympanic membrane"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:385 Other disorders of middle ear and mastoid",
+          "children": [
+            {
+              "name": "PheCode:385.3 Cholesteatoma"
+            },
+            {
+              "name": "PheCode:385.5 Tympanosclerosis and middle ear disease related to otitis media"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:386 Vertiginous syndromes and other disorders of vestibular system",
+          "children": [
+            {
+              "name": "PheCode:386.1 Meniere's disease"
+            },
+            {
+              "name": "PheCode:386.2 Peripheral or central vertigo"
+            },
+            {
+              "name": "PheCode:386.3 Labyrinthitis"
+            },
+            {
+              "name": "PheCode:386.9 Dizziness and giddiness (Light-headedness and vertigo)"
+            }
+          ]
+        },
+        {
+          "name": "PheCode:388 Other disorders of ear"
+        },
+        {
+          "name": "PheCode:389 Hearing loss",
+          "children": [
+            {
+              "name": "PheCode:389.1 Sensorineural hearing loss"
+            },
+            {
+              "name": "PheCode:389.2 Conductive hearing loss"
+            },
+            {
+              "name": "PheCode:389.3 Degenerative and vascular disorders of ear"
+            },
+            {
+              "name": "PheCode:389.4 Tinnitus"
+            },
+            {
+              "name": "PheCode:389.5 Disorders of acoustic nerve"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LATENT - Nasal and sinus conditions",
+      "children": [
+        {
+          "name": "PheCode:464 Acute sinusitis"
+        },
+        {
+          "name": "PheCode:470 Septal Deviations/Turbinate Hypertrophy"
+        },
+        {
+          "name": "PheCode:471 Nasal polyps"
+        },
+        {
+          "name": "PheCode:472 Chronic pharyngitis and nasopharyngitis"
+        },
+        {
+          "name": "PheCode:475 Chronic sinusitis",
+          "children": [
+            {
+              "name": "PheCode:475.9 Postnasal drip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+                        
+
+
+                    )              
+                }
+            )
+            ht.initPromise
+                .then(()=> new Promise((ok, err)=> ht.animateUp(ok, err)))            
+                .then(()=> ht.drawDetailFrame())               
+        </script>
+    </body>
+</html>
